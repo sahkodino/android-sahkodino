@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/splash_background"
+    tools:context="junction.fortumquest.MainActivity">
+
+    <RelativeLayout
+        android:id="@+id/title_container"
+        android:layout_marginTop="12dp"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/fortum_text"
+            android:layout_marginTop="12dp"
+            android:adjustViewBounds="true"
+            android:layout_centerHorizontal="true"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/fortum_text"/>
+
+        <ImageView
+            android:adjustViewBounds="true"
+            android:layout_below="@+id/fortum_text"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/sahkodino"/>
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/splash_egg"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:adjustViewBounds="true"
+        android:src="@drawable/egg"/>
+
+    <junction.fortumquest.MyTextView
+        android:visibility="gone"
+        android:layout_gravity="bottom"
+        android:id="@+id/proceed_button"
+        android:layout_margin="18dp"
+        android:padding="12dp"
+        android:textSize="22sp"
+        android:fontFamily="monospace"
+        android:gravity="center"
+        android:background="@drawable/proceed_button_bg"
+        android:text="PROCEED"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</android.support.design.widget.CoordinatorLayout>

@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "31863592403",
+    "firebase_url": "https://fortum-quest.firebaseio.com",
+    "project_id": "fortum-quest",
+    "storage_bucket": "fortum-quest.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:31863592403:android:192fb5245d45a866",
+        "android_client_info": {
+          "package_name": "junction.fortumquest"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "31863592403-hv6net1pksvrb6lnfsq1cnnknefpd19q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA5R82kGwm8H99rRRWDPGmF0wVDbL8Nd24"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
